@@ -1,0 +1,40 @@
+.row{
+    padding: 2px 2px 2px 2px;
+}
+.inactiveTile{
+    background-color: #BB1D42;
+    color: #BB1D42;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border: 4px black solid;
+}
+
+.activeTile{
+    background-color: #73A117;
+    color: #EEAFBE;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border: 4px black solid;
+}
+
+.correctTile{
+    background-color: #222E09;
+    color: #EEAFBE;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border: 4px black solid;
+}
+
+#board{
+    float:left;
+    text-align: center;
+    width: auto;
+    padding: 1px 1px 1px 1px;
+    border: 5px black solid;
+}
